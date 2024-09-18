@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct WeatherMapAppApp: App {
+struct WeatherMapApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

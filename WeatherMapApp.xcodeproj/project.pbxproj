@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AC15D3F2C986804004EBEBB /* WeatherMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D3E2C986804004EBEBB /* WeatherMapAppApp.swift */; };
+		3AC15D3F2C986804004EBEBB /* WeatherMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D3E2C986804004EBEBB /* WeatherMapApp.swift */; };
 		3AC15D412C986804004EBEBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D402C986804004EBEBB /* ContentView.swift */; };
 		3AC15D432C986807004EBEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC15D422C986807004EBEBB /* Assets.xcassets */; };
 		3AC15D462C986807004EBEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC15D452C986807004EBEBB /* Preview Assets.xcassets */; };
 		3AC15D482C986807004EBEBB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D472C986807004EBEBB /* Persistence.swift */; };
 		3AC15D4B2C986807004EBEBB /* WeatherMapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D492C986807004EBEBB /* WeatherMapApp.xcdatamodeld */; };
+		3AC15D5C2C9868D7004EBEBB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D5B2C9868D7004EBEBB /* DetailView.swift */; };
+		3AC15D5E2C9868E5004EBEBB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D5D2C9868E5004EBEBB /* MapView.swift */; };
+		3AC15D602C9868F5004EBEBB /* Suburb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D5F2C9868F5004EBEBB /* Suburb.swift */; };
+		3AC15D622C986993004EBEBB /* MKCoordinateRegion+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D612C986993004EBEBB /* MKCoordinateRegion+Ext.swift */; };
+		3AC15D642C986BD7004EBEBB /* SuburbAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D632C986BD6004EBEBB /* SuburbAnnotation.swift */; };
+		3AC15D662C986E01004EBEBB /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D652C986E01004EBEBB /* WeatherService.swift */; };
+		3AC15D682C986E14004EBEBB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D672C986E14004EBEBB /* Weather.swift */; };
+		3AC15D6A2C986E2D004EBEBB /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D692C986E2D004EBEBB /* WeatherResponse.swift */; };
+		3AC15D6C2C986E74004EBEBB /* SuburbWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D6B2C986E74004EBEBB /* SuburbWeatherView.swift */; };
+		3AC15D6E2C987681004EBEBB /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC15D6D2C987681004EBEBB /* Mocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AC15D3B2C986804004EBEBB /* WeatherMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC15D3E2C986804004EBEBB /* WeatherMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMapAppApp.swift; sourceTree = "<group>"; };
+		3AC15D3E2C986804004EBEBB /* WeatherMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMapApp.swift; sourceTree = "<group>"; };
 		3AC15D402C986804004EBEBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AC15D422C986807004EBEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AC15D452C986807004EBEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AC15D472C986807004EBEBB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3AC15D4A2C986807004EBEBB /* WeatherMapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherMapApp.xcdatamodel; sourceTree = "<group>"; };
+		3AC15D5B2C9868D7004EBEBB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3AC15D5D2C9868E5004EBEBB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3AC15D5F2C9868F5004EBEBB /* Suburb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suburb.swift; sourceTree = "<group>"; };
+		3AC15D612C986993004EBEBB /* MKCoordinateRegion+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Ext.swift"; sourceTree = "<group>"; };
+		3AC15D632C986BD6004EBEBB /* SuburbAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuburbAnnotation.swift; sourceTree = "<group>"; };
+		3AC15D652C986E01004EBEBB /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		3AC15D672C986E14004EBEBB /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		3AC15D692C986E2D004EBEBB /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		3AC15D6B2C986E74004EBEBB /* SuburbWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuburbWeatherView.swift; sourceTree = "<group>"; };
+		3AC15D6D2C987681004EBEBB /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +75,11 @@
 		3AC15D3D2C986804004EBEBB /* WeatherMapApp */ = {
 			isa = PBXGroup;
 			children = (
-				3AC15D3E2C986804004EBEBB /* WeatherMapAppApp.swift */,
-				3AC15D402C986804004EBEBB /* ContentView.swift */,
-				3AC15D422C986807004EBEBB /* Assets.xcassets */,
-				3AC15D472C986807004EBEBB /* Persistence.swift */,
+				3AC15D552C98685A004EBEBB /* App */,
+				3AC15D542C986859004EBEBB /* Core */,
+				3AC15D532C986857004EBEBB /* Model */,
+				3AC15D522C986856004EBEBB /* View */,
+				3AC15D512C986852004EBEBB /* ViewModel */,
 				3AC15D492C986807004EBEBB /* WeatherMapApp.xcdatamodeld */,
 				3AC15D442C986807004EBEBB /* Preview Content */,
 			);
@@ -71,6 +92,79 @@
 				3AC15D452C986807004EBEBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AC15D512C986852004EBEBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AC15D522C986856004EBEBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D402C986804004EBEBB /* ContentView.swift */,
+				3AC15D5B2C9868D7004EBEBB /* DetailView.swift */,
+				3AC15D5D2C9868E5004EBEBB /* MapView.swift */,
+				3AC15D6B2C986E74004EBEBB /* SuburbWeatherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AC15D532C986857004EBEBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D5F2C9868F5004EBEBB /* Suburb.swift */,
+				3AC15D632C986BD6004EBEBB /* SuburbAnnotation.swift */,
+				3AC15D672C986E14004EBEBB /* Weather.swift */,
+				3AC15D6D2C987681004EBEBB /* Mocks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AC15D542C986859004EBEBB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D582C986882004EBEBB /* Extension */,
+				3AC15D572C986881004EBEBB /* Service */,
+				3AC15D562C986880004EBEBB /* Resource */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3AC15D552C98685A004EBEBB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D3E2C986804004EBEBB /* WeatherMapApp.swift */,
+				3AC15D472C986807004EBEBB /* Persistence.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3AC15D562C986880004EBEBB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D422C986807004EBEBB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3AC15D572C986881004EBEBB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D652C986E01004EBEBB /* WeatherService.swift */,
+				3AC15D692C986E2D004EBEBB /* WeatherResponse.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3AC15D582C986882004EBEBB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AC15D612C986993004EBEBB /* MKCoordinateRegion+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC15D6C2C986E74004EBEBB /* SuburbWeatherView.swift in Sources */,
+				3AC15D662C986E01004EBEBB /* WeatherService.swift in Sources */,
 				3AC15D482C986807004EBEBB /* Persistence.swift in Sources */,
+				3AC15D5E2C9868E5004EBEBB /* MapView.swift in Sources */,
+				3AC15D682C986E14004EBEBB /* Weather.swift in Sources */,
+				3AC15D642C986BD7004EBEBB /* SuburbAnnotation.swift in Sources */,
+				3AC15D602C9868F5004EBEBB /* Suburb.swift in Sources */,
+				3AC15D5C2C9868D7004EBEBB /* DetailView.swift in Sources */,
+				3AC15D6A2C986E2D004EBEBB /* WeatherResponse.swift in Sources */,
 				3AC15D4B2C986807004EBEBB /* WeatherMapApp.xcdatamodeld in Sources */,
 				3AC15D412C986804004EBEBB /* ContentView.swift in Sources */,
-				3AC15D3F2C986804004EBEBB /* WeatherMapAppApp.swift in Sources */,
+				3AC15D6E2C987681004EBEBB /* Mocks.swift in Sources */,
+				3AC15D3F2C986804004EBEBB /* WeatherMapApp.swift in Sources */,
+				3AC15D622C986993004EBEBB /* MKCoordinateRegion+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -288,6 +392,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +422,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
